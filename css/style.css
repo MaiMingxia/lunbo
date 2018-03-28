@@ -1,0 +1,19 @@
+body,ul{margin:0;padding:0;}
+ul {list-style: none;}
+#box{width:1000px;height:450px;position: relative;margin:0 auto;}
+#imgView{height:360px;position:relative;overflow: hidden;text-align: center;}
+#imgView img{cursor:pointer;}
+#imgView button{font: 30px "微软雅黑";width: 60px;height: 100px;margin-top: -25px;position:absolute;top: 50%;left:0;border:0;background:rgba(7,17,27,0.5);}
+#imgView button#next{left:auto;right:0;}
+#imgView button:hover{background:rgba(7,17,27,0.8);}
+#botView{height:90px; overflow:hidden;position: relative;}
+#botView ul{height:90px;}
+#botView li{display: inline-block;width:90px;height:90px;float:left;margin:5px;cursor:pointer;}
+#botView li {background:url('../img/1.jpg') center ;background-size: 90px 90px;}
+.show{}
+.hover{opacity: 0.5;}
+#botView li:hover{opacity: 0.5;}
+.hide{display: none;}
+#botView button{position:absolute;width:30;height: 90px;font: 30px "微软雅黑";border:0;background:rgba(7,17,27,0.8); left:0;z-index: 99;}
+#botView #down{left:auto;right:0;}
+#botView button:hover{background-color: rgba(255,255,255,0.5);}
